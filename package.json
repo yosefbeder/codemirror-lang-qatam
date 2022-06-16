@@ -1,0 +1,30 @@
+{
+  "name": "codemirror-lang-qatam",
+  "version": "0.1.0",
+  "description": "Qatam language support for the CodeMirror code editor",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.es.js",
+    "require": "./dist/index.cjs"
+  },
+  "author": "yosefbeder",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "rollup": "^2.75.6"
+  },
+  "dependencies": {
+    "@codemirror/language": "^6.0.0",
+    "lezer-qatam": "^0.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosefbeder/codemirror-lang-qatam.git"
+  }
+}
