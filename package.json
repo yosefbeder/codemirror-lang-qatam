@@ -1,6 +1,6 @@
 {
   "name": "codemirror-lang-qatam",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Qatam language support for the CodeMirror code editor",
   "main": "./dist/index.cjs",
   "module": "./dist/index.es.js",
@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@codemirror/language": "^6.0.0",
-    "lezer-qatam": "^0.1.0"
+    "lezer-qatam": "^0.1.2"
   },
   "scripts": {
     "build": "rollup -c",
