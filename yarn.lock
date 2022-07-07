@@ -52,10 +52,10 @@ fsevents@~2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-lezer-qatam@^0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/lezer-qatam/-/lezer-qatam-0.1.1.tgz#11245f0784a9ef100d3ac94ebf6358ffd5df950c"
-  integrity sha512-qGNPY34FljaBxAwxnI2R+7tN0LlNH4F6n8wys9s3BmIWEKH/U5U+8S4sQwdhFfR7Eh4z+QYleyMoimHnmQX2hQ==
+lezer-qatam@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/lezer-qatam/-/lezer-qatam-0.1.3.tgz#dc8bb29b34abc38fcb499d8d61c07661e2d0c8b6"
+  integrity sha512-psiHSqKrlVPojo/cR7i0I+EsSazVuyxOhOmqjEPustQVhwHjihoRuf9orF5zW9/Bpk37UF0XzWyEW8k+SWCACg==
   dependencies:
     "@lezer/highlight" "^1.0.0"
     "@lezer/lr" "^1.0.0"
