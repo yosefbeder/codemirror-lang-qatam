@@ -21,7 +21,7 @@ export const qatam = LRLanguage.define({
       }),
     ],
     languageData: {
-      closeBrackets: { brackets: ['(', '[', '{', '"'] },
+      closeBrackets: { brackets: ['(', '[', '{', '|', '"'] },
       commentTokens: { line: '#' },
     },
   }),
